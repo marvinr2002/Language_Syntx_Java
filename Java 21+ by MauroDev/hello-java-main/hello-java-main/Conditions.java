@@ -14,7 +14,7 @@ public class Conditions {
         var day = 1;
         switch(day) {
             case 1:
-            System.out.println("Lunes");
+            System.out.println("Lunes de guineo");
             break;
             case 2:
                 System.out.println("Martes");
