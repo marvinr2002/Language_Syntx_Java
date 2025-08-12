@@ -3,6 +3,7 @@ public class StringsExercise {
         // 1. Concatena dos cadenas de texto.
 
         String name = "Marvin";
+        String ruiz = "Rojas";
         String name2 = "marvin";
         String surname = "Ruiz";
         String surname2 = "ruiz";
