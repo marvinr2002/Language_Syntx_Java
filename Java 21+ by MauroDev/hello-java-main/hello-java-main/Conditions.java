@@ -11,10 +11,18 @@ public class Conditions {
         System.out.println("El usuario es menor de edad");
 
     //switch
-
-
-
-
+        var day = 1;
+        switch(day) {
+            case 1:
+            System.out.println("Lunes");
+            break;
+            case 2:
+                System.out.println("Martes");
+                break;
+            case 3:
+                System.out.println("Miercoles");
+                break;
+        }
     }
 
 }
