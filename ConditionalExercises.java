@@ -42,10 +42,31 @@ public class ConditionalExercises {
             System.out.println("It's outside the range");
         }
                 // 6. Declara una variable con el día de la semana (1-7) y muestra su nombre con switch.
-
+        var day = 3;
+        switch (day){
+            case 1:
+                System.out.println("Lunes");
+                break;
+                case 2:
+                System.out.println("Martes");
+                break;
+                case 3:
+                System.out.println("Miercoles");
+                break;
+        }
                 // 7. Simula un sistema de notas: muestra "Sobresaliente", "Aprobado" o "Suspenso" según la nota (0-100).
-
+        var nota = 65;
+        if (nota <= 45){
+            System.out.println("Suspended");
+        } else if (nota <= 70 ){
+            System.out.println("Approved");
+        } else {
+            System.out.println("Excellent");
+        }
                 // 8. Escribe un programa que determine si puedes entrar al cine: debes tener al menos 15 años o ir acompañado.
+
+
+
 
                 // 9. Crea un programa que diga si una letra es vocal o consonante.
 
