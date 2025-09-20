@@ -24,9 +24,7 @@ public class ConditionalExercises {
         } else {
             System.out.println("Negative");
         }
-
         // 4. Crea un programa que diga si un número es par o impar.
-
         var numpar = 10;
 
         if (numpar % 2 == 0) {
@@ -64,13 +62,47 @@ public class ConditionalExercises {
             System.out.println("Excellent");
         }
                 // 8. Escribe un programa que determine si puedes entrar al cine: debes tener al menos 15 años o ir acompañado.
-
-
-
-
-                // 9. Crea un programa que diga si una letra es vocal o consonante.
-
-                // 10. Usa tres variables a, b, c y muestra cuál es el mayor de las tres.
-
+        class persona{
+            public int age;
+            persona(int age){
+                this.age =age;
+            }
         }
-    }
+        class agechecker {
+        }
+
+        int ageticket = 65;
+        if (ageticket < 15) {
+            System.out.println("Menor necesita acompanante");
+        } else if (ageticket == 15){
+            System.out.println("Sopa");
+        } else{
+            System.out.println("traete una chatela dog");
+        }
+
+
+    // 9. Crea un programa que diga si una letra es vocal o consonante.
+                char c = 'b';  // aquí pones la letra a verificar
+
+                // Convertimos a minúscula para simplificar
+                if (c >= 'A' && c <= 'Z') {
+                    c = Character.toLowerCase(c);
+                }
+
+                // Verificar si es letra
+                if (c >= 'a' && c <= 'z') {
+                    // Si no es vocal → es consonante
+                    if (c != 'a' && c != 'e' && c != 'i' && c != 'o' && c != 'u') {
+                        System.out.println(c + " es consonante");
+                    } else {
+                        System.out.println(c + " es vocal");
+                    }
+                } else {
+                    System.out.println(c + " no es una letra");
+                }
+            }
+        }
+
+
+        // 10. Usa tres variables a, b, c y muestra cuál es el mayor de las tres.
+
