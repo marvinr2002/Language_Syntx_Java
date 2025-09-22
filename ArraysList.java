@@ -1,27 +1,37 @@
+import java.util.ArrayList;
 public class ArraysList {
-    public static void main(String[] args){
-        // statement
-        // and creation
- int[] prices = {5,2,5} ;
- System.out.println(prices);
-    `
+    public static void main(String[] args) {
 
-        class NobelForPhysicsLaureatesRevisited {
-            public static void main(String[] args) {
+        ArrayList<String> names = new ArrayList<String>();
+            // Denotation / creation
+        var number = new ArrayList<Integer>();
+        // Add elements
+        // Size
+        // Getters and setters ________ ???
+        System.out.println(names.size());
+        names.size();
+        names.add("Marvin");
+        names.add("Ruiz");
+        names.add("Rojas");
+        System.out.println(names.size());
+        // check elements
+        System.out.println(names.get(1));
+// Dynamic List - ArraysList
+        names.set(2, "Marvin@gmail.com");
+        System.out.println(names.getLast());
+        System.out.println(names.size());
+        names.remove(2);
+        System.out.println(names.getLast());
+        System.out.println(names.size());
 
-                String[] nobelLaureates = {"Curie", "Einstein", "Fermi"};
-                int[] years = {1903, 1921, 1938};
+        System.out.println(names.contains("Marvin"));
 
-                // Replace Fermi with Heisenberg
-                nobelLaureates[2] = "Heisenberg";
-                // Correct the year
-                years[2] = 1932;
+        // Limpiar Array List
+        System.out.println(names);
+        names.add("Marvin");
+        System.out.println(names);
+        names.clear();
+        System.out.println(names.size());
 
-                System.out.println(nobelLaureates[0] + " won in " + years[0]);
-                System.out.println(nobelLaureates[1] + " won in " + years[1]);
-                // Print the last record
-                System.out.println(nobelLaureates[2] + " won in " + years[2]);
-            }
-        }
     }
 }
