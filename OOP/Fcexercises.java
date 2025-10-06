@@ -5,9 +5,9 @@ public class Fcexercises {
     welcomeToJava("Pescueso");
     twoNumbers(34, 45);
     System.out.println(squareOfaNum(4));
-   }
-   
+   System.out.println(oddNumberAttempt(11));
 
+   }
      // 1. Crea una función que imprima "¡Te doy la bienvenida al curso de Java desde cero!".
 
      public static void welcomeToJava(){
@@ -31,12 +31,14 @@ public class Fcexercises {
          Integer squareOfNums = oneNumber * oneNumber;
          return squareOfNums; 
       }
-
-
-
-
-
         // 5. Escribe una función que reciba un número y diga si es par o impar.
+      public static String oddNumberAttempt(Integer oneNumber){
+         if (oneNumber % 2 == 0){
+            return "Even";
+         } else{
+            return "Odd";
+         }
+      }
 
         // 6. Crea un método que reciba una edad y retorne true si es mayor de edad (y false en caso contrario).
 
