@@ -41,6 +41,12 @@ public class Fcexercises {
       }
 
         // 6. Crea un método que reciba una edad y retorne true si es mayor de edad (y false en caso contrario).
+        public static boolean ageVerificator(Integer Age){
+            if(Age >= 19){
+            return true;
+            }else
+            return false;
+         }
 
         // 7. Implementa una función que reciba una cadena y retorne su longitud.
 
@@ -52,3 +58,4 @@ public class Fcexercises {
 
     
 }
+
