@@ -49,7 +49,9 @@ public class Fcexercises {
          }
 
         // 7. Implementa una función que reciba una cadena y retorne su longitud.
-
+   public static Integer sizeOfAString(String cadena){
+   return cadena.length();
+   }
         //  8. Crea un método que reciba un array de enteros, calcula su media y lo retorna.
 
         // 9. Escribe un método que reciba un número y retorna su factorial.
@@ -58,4 +60,5 @@ public class Fcexercises {
 
     
 }
+
 
